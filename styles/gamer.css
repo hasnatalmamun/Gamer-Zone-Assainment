@@ -179,12 +179,12 @@ nav {
 
 .we-are-gamer-container {
     max-width: 1920px;
-    min-height: 600px;
+    min-height: 500px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     ;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .we-are-gamer-max {
