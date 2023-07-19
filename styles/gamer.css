@@ -50,17 +50,13 @@
 .logo p::first-letter {
     color: #FF42A5;
     font-size: 45px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .logo p {
     padding-left: 20px;
     font-size: 45px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .logo img {
@@ -206,12 +202,154 @@ nav {
     display: flex;
     justify-content: center;
     max-width: 1440px;
-    margin: 0 240px 120px 240px;
+    margin-bottom: 100px;
+    gap: 10px;
 }
 
 .game-card {
-    width: 342px;
-    height: 400px;
     padding: 10px;
+    width: 210px;
 }
 
+.game-card img {
+    width: 200px;
+}
+
+/*  play instaant section */
+
+.play-instant-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.play-instant-text {
+    text-align: right;
+    margin-right: 200px;
+}
+
+.play-instant-text h2 {
+    font-weight: 700px;
+    font-size: 2rem;
+}
+
+.play-instant-text p {
+    color: #534C64;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.img-1 {
+    width: 400px;
+}
+
+.img-2 {
+    border-radius: 8px;
+    border: 10px solid #FFF;
+}
+
+.img-2 img {
+    width: 200px;
+    margin-top: -200px;
+    margin-left: -100px;
+}
+
+/* <!-- other game section --> */
+
+.mini-card-container {
+    display: flex;
+}
+
+.mini-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* footer section */
+
+footer {
+    background: #0B0223;
+    height: 500px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer-logo p::first-letter {
+    color: #FF42A5;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer-logo p {
+    padding-left: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.footer-logo img {
+    display: block;
+    width: 50px;
+}
+
+.footer-item ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-item ul a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-item ul li {
+    padding-left: 50px;
+}
+
+.scosial-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.scosial-icon img {
+    padding: 20px;
+    width: 40px;
+}
+
+.footer-item-2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-item-2 ul li {
+    padding-left: 50px;
+}
+
+.footer-item-2 ul a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.footer-p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    padding-top: 30px;
+}
