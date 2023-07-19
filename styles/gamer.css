@@ -271,14 +271,14 @@ nav {
 
 footer {
     background: #0B0223;
-    height: 500px;
+    height: 400px;
 }
 
 .footer-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
