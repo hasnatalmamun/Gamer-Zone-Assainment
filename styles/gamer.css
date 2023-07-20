@@ -581,4 +581,15 @@ footer {
         width: 450px;
         font-size: 13px;
     }
+
+    footer{
+        height: 600px;
+    }
+    .footer-item ul{
+        flex-direction: column;
+    }
+    .scosial-icon{
+        margin-left: 80px;
+        display: block;
+    }
 }
