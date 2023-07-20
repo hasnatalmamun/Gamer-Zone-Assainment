@@ -200,12 +200,12 @@ nav {
     max-width: 520px;
 }
 
-.we_are_gamer_img img {
+.we-are-gamer-img img {
     display: block;
     width: 95%;
 }
 
-.we_are_gamer_text h3 {
+.we-are-gamer-text h3 {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -213,7 +213,7 @@ nav {
     padding-bottom: 10px;
 }
 
-.we_are_gamer_text p {
+.we-are-gamer-text p {
     color: #534C64;
     font-size: 18px;
     font-style: normal;
@@ -222,7 +222,7 @@ nav {
     padding: 10px 0px;
 }
 
-.we_are_gamer_text p:last-child {
+.we-are-gamer-text p:last-child {
     color: #534C64;
     font-size: 32px;
     font-style: normal;
